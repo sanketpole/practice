@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+.section-1 , .section-7{
+    position: relative;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
+    width: 100vw;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.first-heading{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    border: 1px solid black;
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    font-size: 27px;
+}
+.section-2 , .section-4 , .section-6{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 80px 40px 80px;
+    line-height: 2rem;
+    color: grey;
+}
+h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.section-3{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
+    width: 100wh;
+    height: 60vh;
+    background-attachment: fixed;
+    position: relative;
+}
+.image-two-text{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    padding-left: 40%;
+    color: white;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.section-4 , .section-6{
+    background-color: black;
+    opacity: 0.9;
+}
+.section-5{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg);
+    width: 100wh;
+    height: 60vh;
+    background-attachment: fixed;
+    position: relative;
+    width: 100wh;
+    height: 60vh;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.6;
+}
+.image-three-text{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    padding-left: 40%;
+    color: white;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    /* text-transform: uppercase; */
+    letter-spacing: 10px;
+}
+
+@meadia only screen and (max-width:300px){
+    .first-heading{
+        width:45%
+    }
+}
